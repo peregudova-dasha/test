@@ -9,7 +9,6 @@
   text-decoration: none;
 }
 #navigation {
-  font-family: "wf_SegoeUILight";
   font-size: 1.02em;
   height: 48px;
 }
@@ -17,6 +16,7 @@
   margin: 0 5%;
 }
 #navigation .navbar {
+  font-family: "wf_SegoeUILight";
   background: #ffffff;
   height: 48px;
   border-radius: 0;
