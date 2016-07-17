@@ -1,0 +1,530 @@
+@lgr: #e0e0e0;
+@lgr2: #D4D4D4;
+@gr: #585858;
+@b: #000;
+@w: #fff;
+@bg-nav: #f2f2f2;
+@bg-hero: #f7f7f7 ;
+@blue: #0071e0;
+@dgr: #51525f;
+@dbl: #323a45;
+@pink: #f42156;
+@lb: #282828;
+@font-face{
+  font-family: 'wf_SegoeUILight';
+  src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot');
+  src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot?#iefix') format('embedded-opentype'),
+  url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.woff') format('woff'),
+  url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.ttf') format('truetype'),
+  url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{ a:hover{text-decoration: none;}}
+
+#navigation {
+  font-family: "wf_SegoeUILight"; 
+  font-size: 1.02em;
+  height: 48px;
+  .container-fluid { margin: 0 5%; }
+  .navbar {
+    background: @w;
+    height: 48px;
+    border-radius: 0;
+    border:none;
+    box-shadow: none;
+    li { a {
+      color: @b; 
+      font-size: 1.1em;
+      
+      }}
+      
+      #search  {
+        margin-top: 4px;
+        height: 40px;
+        border: 1px solid @gr;
+        
+        .navbar-form {
+          margin-top: 2px;
+          width: 270px;
+        }
+        
+        input { width: 220px}
+        
+        .form-control{
+          border: none;
+          box-shadow: none;
+          padding: 0 15px 0 0;
+        }
+        
+        ::-webkit-input-placeholder {
+          color: @b; font-size: 1.1em; 
+        }
+        
+        button {
+          float: right;
+          margin-top: 5px;
+          padding: 0; 
+          background: none;
+          border: none;
+          box-shadow: none;
+          img {
+            width: 20px;
+          }
+        }
+      }
+      .logo {
+        width:108px;
+      }
+      #backet {
+        a {
+          padding:12px 5px 0px 25px;
+          
+        }
+      }
+      .backet {
+        width: 25px; display: inline;
+      }
+      
+      .count {
+        padding: 15px 10px 0 0;
+        font-size: 0.9em;
+      }
+
+    }
+    .dropdown-menu {
+      background: @lgr;
+      border: none;
+      box-shadow: none;
+      width: 215px;
+      li {
+        height: 100%;
+        padding: 12px 10px;
+      }
+      
+      li:hover {
+        background: @lgr2;
+      }
+      a:hover {
+       background: none;
+     }
+   }
+ }
+
+ #banner {
+  width: 100%;
+  height: 700px;
+  background: url("img/hero.jpg")  no-repeat;
+  background-size: contain;
+  background-position: 500px center;
+  background-color:@bg-hero;
+  padding: 75px 148px;
+  
+  h1{
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-weight: 300;
+    font-size: 47px;
+    width: 450px;
+    line-height: 1.5;
+    color: @dgr;
+  }
+  h2 {
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    width: 440px;
+    line-height: 1.5;
+    color: @dgr;
+    padding-bottom: 20px;
+  }
+  
+  .button {
+    width: 700px;
+    height: 60px;
+    background: @blue;
+    border-radius: 6px;
+    color: @w;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .buy_now {
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: @dgr;
+  }
+
+}
+
+#sign_up {
+  background: @dbl;
+  padding: 160px 0;
+  
+  h2 {
+    margin-bottom: 55px;
+    font-family: "Open Sans", "open-sans", sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    color: @w;
+  }
+  
+  form {
+    text-align: center;
+    p {
+      display: inline-block;
+      label {
+       font-family: "Open Sans", "open-sans", sans-serif;
+       color: @gr;
+       position: absolute;
+       font-weight: 400;
+       font-size: 18px;
+       margin: 20px 20px;
+       
+       span {margin-right: 10px;}
+     }
+     
+     input {
+       width: 280px;
+       height: 63px;
+       padding-left: 48px;
+       border-radius: 3px;
+       border: none;
+       outline: none;
+       margin-right: 10px;
+     }
+     #button {background: @pink;}
+     button {
+       border: none;
+       outline: none;
+       width: 280px;
+       height: 63px;
+       border-radius: 3px;
+       color: @w;
+       text-transform: uppercase;
+       font-size: 14px;
+       font-weight: 600;
+     }
+     
+   }
+ }
+ 
+ .terms {
+  margin-top: 30px;
+  text-align: center;
+  color: @gr;
+  a{color: @gr;}
+  a:hover {color: @blue;}
+}
+}
+
+#special {
+  
+  .column { display: inline-block;
+    width: 33.3333%;
+    height: 300px;
+    margin-right: -4px;
+    margin-bottom: -5px;
+  }
+  .img  {
+   height: 300px;
+   width: 100%;
+ }
+ 
+ .img1 {
+  background: url("img/1.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+.img2 {
+  background: url("img/2.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+.img3 {
+  background: url("img/3.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+
+.hover {
+  background-size: 150%;
+}
+
+.black {
+  display: block;
+  height: 300px;
+  width: 33.3333%;
+  background: @dbl;
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -300px;
+}
+
+.title {
+ height: 300px;
+ width: 100%;
+ text-align: center;
+ width: 33.3333%;
+ position: absolute;
+ margin-top: -300px;
+ color: @w;
+ box-sizing: border-box;
+ padding: 100px 32px;
+ p {
+  color: #a4a5a6;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 16px;
+}
+
+h3 {    font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;}
+}
+
+}
+
+footer {
+  background: @bg-nav;
+  font-family: "Arial",sans-serif; 
+  .container {
+    padding:32px 7.5%;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    display: inline-block;
+  }
+  
+  h3 {
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+  }
+  
+  ul {
+   margin: 0 0 10px 0;
+   padding: 0;
+   li {
+     list-style: none;
+     
+     a {
+      font-size: 12px;
+      color: #666;
+    }
+  }
+}
+
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.info {
+ font-size: 11px;
+ color: #999;
+ border-bottom: 1px solid #e3e3e3;
+ padding-bottom: 5px;
+ margin-bottom: 6px;
+}
+
+.copyright {
+ font-size: 11px;
+ color: #999;
+ display: inline-block;
+ margin-right: 26px;
+}
+.footer-links {
+ font-size: 11px;
+ display: inline-block;
+ a {
+  color:#666;
+  padding-right: 12px;
+  border-right: 1px solid #999;
+  margin-right: 10px;
+}
+a:hover {
+  color:#333;
+}
+}
+
+.country {
+  font-size: 11px;
+  display: inline-block;
+  float: right;
+  a {
+    color:#666;
+  }
+}
+}
+
+
+
+
+/*PHONE*/
+@media all and (max-width:767px) {
+  #navigation {
+    .navbar-collapse {background: @w; }
+    #search, #backet, .count  { display: none;}
+    .dropdown, .open {
+      li { width: 100%; margin:0; padding:0; a{width: 100%;}}
+    }
+    .dropdown-menu {
+      width: 100%; margin:0; padding:0;
+    }
+  }
+  
+  #banner {
+    height: 100%;
+    padding: 50px 10px;
+    box-sizing: padding-box;
+    
+    h1 {
+      margin-left: 15%;
+      font-size: 30px;
+      line-height: 1;
+      width: 70%;
+      text-align:center;
+    }
+    
+    h2 {
+     margin-left: 15%;
+     font-size: 22px;
+     line-height: 1;
+     width: 70%;
+     text-align:center;
+   }
+   
+   .button {
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1;
+    padding: 20px;
+  }
+  .buy_now{ margin: 20px auto 0 auto; text-align:center;
+    font-size: 14px;
+  }
+}
+
+#sign_up {
+  h2 {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  #button {text-align: center; margin-left: -4px;}
+
+  
+  .terms {
+    margin: 30px 10px 10px 10px;
+  }
+}
+
+#special {
+  .column, .black, .title {
+    width: 100%;
+  }
+  
+  .img {
+    background-size: cover;
+  }
+  
+}
+
+footer {
+  .column {
+    width: 100%;
+    margin-left: 20px;
+  }
+  h3 { font-size: 14px; width: 200px; margin-right: 0;} 
+  ul {
+    margin-bottom: 15px;
+    li {width: 200px; margin-right: 0;
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+}
+
+
+
+/*TABLETS*/
+@media all and (min-width:768px) and (max-width:991px){
+  #navigation {
+    #search, #backet, .count  { display: none;}
+  }
+  #banner {
+    height: 100%;
+    padding: 75px 25px;
+    h1 {
+      margin-left:50px;
+      font-size: 38px;
+      line-height: 1;
+      width: 50%;
+
+    }
+    
+    h2 {
+     margin-left: 50px;
+     font-size: 28px;
+     line-height: 1;
+     width: 50%;
+     
+   }
+   
+   .button {
+    float: left;
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px;
+  }
+  .buy_now{ margin: 20px auto 0 auto; text-align:center;
+    font-size: 14px;
+  }
+}
+#sign_up {
+  h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #button {text-align: center; margin-left: -4px;}
+}
+#special {
+ 
+  .img {background-size: cover;}
+} 
+
+
+}
+
+
+
+/*MEDIUM DEVICE*/
+@media all and (min-width:992px) and (max-width:1200px) {
+  
+  #special {
+   .img {background-size: cover;}
+ } 
+ #sign_up {
+  h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+}
+
+
+/*LARGE DEVICE*/
+@media all and (min-width:1201px) {
+  
+}

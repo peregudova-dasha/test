@@ -1,0 +1,478 @@
+@font-face {
+  font-family: 'wf_SegoeUILight';
+  src: url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot');
+  src: url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot?#iefix') format('embedded-opentype'), url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.woff') format('woff'), url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.ttf') format('truetype'), url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* a:hover {
+  text-decoration: none;
+}
+#navigation {
+  font-family: "wf_SegoeUILight";
+  font-size: 1.02em;
+  height: 48px;
+}
+#navigation .container-fluid {
+  margin: 0 5%;
+}
+#navigation .navbar {
+  background: #ffffff;
+  height: 48px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+#navigation .navbar li a {
+  color: #000000;
+  font-size: 1.1em;
+}
+#navigation .navbar #search {
+  margin-top: 4px;
+  height: 40px;
+  border: 1px solid #585858;
+}
+#navigation .navbar #search .navbar-form {
+  margin-top: 2px;
+  width: 270px;
+}
+#navigation .navbar #search input {
+  width: 220px;
+}
+#navigation .navbar #search .form-control {
+  border: none;
+  box-shadow: none;
+  padding: 0 15px 0 0;
+}
+#navigation .navbar #search ::-webkit-input-placeholder {
+  color: #000000;
+  font-size: 1.1em;
+}
+#navigation .navbar #search button {
+  float: right;
+  margin-top: 5px;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+#navigation .navbar #search button img {
+  width: 20px;
+}
+#navigation .navbar .logo {
+  width: 108px;
+}
+#navigation .navbar #backet a {
+  padding: 12px 5px 0px 25px;
+}
+#navigation .navbar .backet {
+  width: 25px;
+  display: inline;
+}
+#navigation .navbar .count {
+  padding: 15px 10px 0 0;
+  font-size: 0.9em;
+}
+#navigation .dropdown-menu {
+  background: #e0e0e0;
+  border: none;
+  box-shadow: none;
+  width: 215px;
+}
+#navigation .dropdown-menu li {
+  height: 100%;
+  padding: 12px 10px;
+}
+#navigation .dropdown-menu li:hover {
+  background: #d4d4d4;
+}
+#navigation .dropdown-menu a:hover {
+  background: none;
+}
+#banner {
+  width: 100%;
+  height: 700px;
+  background: url("img/hero.jpg") no-repeat;
+  background-size: contain;
+  background-position: 500px center;
+  background-color: #f7f7f7;
+  padding: 75px 148px;
+}
+#banner h1 {
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 47px;
+  width: 450px;
+  line-height: 1.5;
+  color: #51525f;
+}
+#banner h2 {
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  width: 440px;
+  line-height: 1.5;
+  color: #51525f;
+  padding-bottom: 20px;
+}
+#banner .button {
+  width: 700px;
+  height: 60px;
+  background: #0071e0;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 15px;
+}
+#banner .buy_now {
+  font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #51525f;
+}
+#sign_up {
+  background: #323a45;
+  padding: 160px 0;
+}
+#sign_up h2 {
+  margin-bottom: 55px;
+  font-family: "Open Sans", "open-sans", sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+  color: #ffffff;
+}
+#sign_up form {
+  text-align: center;
+}
+#sign_up form p {
+  display: inline-block;
+}
+#sign_up form p label {
+  font-family: "Open Sans", "open-sans", sans-serif;
+  color: #585858;
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 20px 20px;
+}
+#sign_up form p label span {
+  margin-right: 10px;
+}
+#sign_up form p input {
+  width: 280px;
+  height: 63px;
+  padding-left: 48px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+#sign_up form p #button {
+  background: #f42156;
+}
+#sign_up form p button {
+  border: none;
+  outline: none;
+  width: 280px;
+  height: 63px;
+  border-radius: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+#sign_up .terms {
+  margin-top: 30px;
+  text-align: center;
+  color: #585858;
+}
+#sign_up .terms a {
+  color: #585858;
+}
+#sign_up .terms a:hover {
+  color: #0071e0;
+}
+#special .column {
+  display: inline-block;
+  width: 33.3333%;
+  height: 300px;
+  margin-right: -4px;
+  margin-bottom: -5px;
+}
+#special .img {
+  height: 300px;
+  width: 100%;
+}
+#special .img1 {
+  background: url("img/1.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+#special .img2 {
+  background: url("img/2.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+#special .img3 {
+  background: url("img/3.jpg") 50% 50% no-repeat;
+  background-size: 130%;
+}
+#special .hover {
+  background-size: 150%;
+}
+#special .black {
+  display: block;
+  height: 300px;
+  width: 33.3333%;
+  background: #323a45;
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -300px;
+}
+#special .title {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  width: 33.3333%;
+  position: absolute;
+  margin-top: -300px;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 100px 32px;
+}
+#special .title p {
+  color: #a4a5a6;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 16px;
+}
+#special .title h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+footer {
+  background: #f2f2f2;
+  font-family: "Arial", sans-serif;
+}
+footer .container {
+  padding: 32px 7.5%;
+}
+footer .column {
+  float: left;
+  width: 20%;
+  display: inline-block;
+}
+footer h3 {
+  font-size: 12px;
+  line-height: 1.66667;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #333;
+  margin: 0;
+}
+footer ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  font-size: 12px;
+  color: #666;
+}
+footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+footer .info {
+  font-size: 11px;
+  color: #999;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+}
+footer .copyright {
+  font-size: 11px;
+  color: #999;
+  display: inline-block;
+  margin-right: 26px;
+}
+footer .footer-links {
+  font-size: 11px;
+  display: inline-block;
+}
+footer .footer-links a {
+  color: #666;
+  padding-right: 12px;
+  border-right: 1px solid #999;
+  margin-right: 10px;
+}
+footer .footer-links a:hover {
+  color: #333;
+}
+footer .country {
+  font-size: 11px;
+  display: inline-block;
+  float: right;
+}
+footer .country a {
+  color: #666;
+}
+/*PHONE*/
+@media all and (max-width: 767px) {
+  #navigation .navbar-collapse {
+    background: #ffffff;
+  }
+  #navigation #search,
+  #navigation #backet,
+  #navigation .count {
+    display: none;
+  }
+  #navigation .dropdown li,
+  #navigation .open li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #navigation .dropdown li a,
+  #navigation .open li a {
+    width: 100%;
+  }
+  #navigation .dropdown-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #banner {
+    height: 100%;
+    padding: 50px 10px;
+    box-sizing: padding-box;
+  }
+  #banner h1 {
+    margin-left: 15%;
+    font-size: 30px;
+    line-height: 1;
+    width: 70%;
+    text-align: center;
+  }
+  #banner h2 {
+    margin-left: 15%;
+    font-size: 22px;
+    line-height: 1;
+    width: 70%;
+    text-align: center;
+  }
+  #banner .button {
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1;
+    padding: 20px;
+  }
+  #banner .buy_now {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-size: 14px;
+  }
+  #sign_up h2 {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  #sign_up #button {
+    text-align: center;
+    margin-left: -4px;
+  }
+  #sign_up .terms {
+    margin: 30px 10px 10px 10px;
+  }
+  #special .column,
+  #special .black,
+  #special .title {
+    width: 100%;
+  }
+  #special .img {
+    background-size: cover;
+  }
+  footer .column {
+    width: 100%;
+    margin-left: 20px;
+  }
+  footer h3 {
+    font-size: 14px;
+    width: 200px;
+    margin-right: 0;
+  }
+  footer ul {
+    margin-bottom: 15px;
+  }
+  footer ul li {
+    width: 200px;
+    margin-right: 0;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+/*TABLETS*/
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #navigation #search,
+  #navigation #backet,
+  #navigation .count {
+    display: none;
+  }
+  #banner {
+    height: 100%;
+    padding: 75px 25px;
+  }
+  #banner h1 {
+    margin-left: 50px;
+    font-size: 38px;
+    line-height: 1;
+    width: 50%;
+  }
+  #banner h2 {
+    margin-left: 50px;
+    font-size: 28px;
+    line-height: 1;
+    width: 50%;
+  }
+  #banner .button {
+    float: left;
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px;
+  }
+  #banner .buy_now {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-size: 14px;
+  }
+  #sign_up h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #sign_up #button {
+    text-align: center;
+    margin-left: -4px;
+  }
+  #special .img {
+    background-size: cover;
+  }
+}
+/*MEDIUM DEVICE*/
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  #special .img {
+    background-size: cover;
+  }
+  #sign_up h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+/*LARGE DEVICE*/
