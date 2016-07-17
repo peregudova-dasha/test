@@ -16,7 +16,7 @@
   margin: 0 5%;
 }
 #navigation .navbar {
-  font-family: "wf_SegoeUILight";
+  font-family: "wf_SegoeUILight", "Arial", sans-serif;
   background: #ffffff;
   height: 48px;
   border-radius: 0;
