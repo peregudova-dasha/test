@@ -53,7 +53,7 @@ $(document).ready(function(){
     
   }, function(){
        $(this).find(".black").animate({"opacity": "0.5"}, 150);
-           $(this).find(".img").animate({"background-size":"120%"}, 300 );    
+           $(this).find(".img").animate({"background-size":"130%"}, 300 );    
   })
 
 
